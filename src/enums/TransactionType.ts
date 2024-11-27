@@ -1,0 +1,16 @@
+export enum TransactionType {
+  Fuel = "주유비",
+  Dining = "외식비",
+  Groceries = "장보기",
+  Investigation = "경조사",
+  Medical = "의료비",
+  Maintenance = "관리비",
+  Gas = "가스비",
+  Internet = "인터넷비",
+  Toll = "하이패스비",
+  Parking = "주차비",
+  Installment = "할부",
+  PublicTransport = "대중교통",
+  Tax = "세금",
+  Etc = "기타",
+}

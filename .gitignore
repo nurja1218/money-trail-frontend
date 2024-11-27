@@ -1,23 +1,86 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Node.js dependencies
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
+# Testing outputs
 /coverage
 
-# production
+# Production build
 /build
 
-# misc
+# Miscellaneous
 .DS_Store
+.env
 .env.local
+.env.development
 .env.development.local
+.env.test
 .env.test.local
+.env.production
 .env.production.local
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+*.log.*
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Tailwind CSS
+tailwind.config.js
+postcss.config.js
+
+# TypeScript build outputs
+*.tsbuildinfo
+
+# Coverage reports
+/coverage
+/nyc_output
+/jest
+
+# React build artifacts
+/.next
+/out
+.cache/
+
+# Storybook files
+.storybook/
+stories/
+
+# Parcel files
+.cache/
+.parcel-cache/
+
+# IDE artifacts
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
